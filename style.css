@@ -2,7 +2,10 @@ h1 {
     text-align: center;
     
 }
-p3 {
+p {
     text-align: center;
     font-family: 'Lobster', cursive;
 }
+.a{font-family: 'Lobster', cursive;}
+
+#a{font-family: 'Lobster', cursive;}
