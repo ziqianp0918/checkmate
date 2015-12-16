@@ -12,6 +12,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin: 1px 150px 1px 150px;
     padding: 50px 20px 50px 20px;
+    clear:both;
 }
 
 #sequel {
@@ -23,11 +24,11 @@ p {
     height: 350px;
     width: 100px;
     background: url("images/chess-pieces.png");
-    background-size: 60%;
+    background-size: 70%;
     position: absolute;
-    margin: 10px 0px 0px 670px;
+    margin: 10px 0px 0px 1300px;
 }
 
 .review {
-    float: left;
+    float:left;
 }
