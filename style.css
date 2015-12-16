@@ -1,23 +1,33 @@
-body {
+.movie1 {
     color: pink;
 }
 
 h1 {
     text-align: center;
-    
+    margin: 25px 0px 0px 40px;
 }
 
 p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-   
-}
-
-.a {
-    font-family: 'Lobster', cursive;
+    margin: 1px 150px 1px 150px;
+    padding: 50px 20px 50px 20px;
 }
 
 #sequel {
     font-family: 'Montserrat', sans-serif;
     color: black;
+}
+
+#chess {
+    height: 350px;
+    width: 100px;
+    background: url("images/chess-pieces.png");
+    background-size: 60%;
+    position: absolute;
+    margin: 10px 0px 0px 670px;
+}
+
+.review {
+    float: left;
 }
