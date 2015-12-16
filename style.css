@@ -1,16 +1,23 @@
+body {
+    color: pink;
+}
+
 h1 {
     text-align: center;
-    color: gray;
     
 }
+
 p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-       color: gray;
+   
 }
-.a{font-family: 'Lobster', cursive;}
 
-#sequel{font-family: 'Montserrat', sans-serif;
+.a {
+    font-family: 'Lobster', cursive;
+}
+
+#sequel {
+    font-family: 'Montserrat', sans-serif;
     color: black;
 }
-
