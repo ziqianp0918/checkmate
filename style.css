@@ -5,6 +5,8 @@
 h1 {
     text-align: center;
     margin: 25px 0px 0px 40px;
+    font-size: 50px;
+    text-shadow: 2px 1px 8px #FF0000;
 }
 
 p {
@@ -38,4 +40,10 @@ p {
 a{
     font-size:50px;
    
+}
+#title {
+    text-align: center;
+    margin: 25px 0px 0px 40px;
+    font-size: 50px;
+    text-shadow: 2px 1px 8px #FF0000;
 }
