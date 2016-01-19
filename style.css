@@ -42,8 +42,7 @@ a{
    
 }
 #title {
-    text-align: center;
-    margin: 25px 0px 0px 40px;
-    font-size: 50px;
+   background-image: radial-gradient(#03051F, #16194C, #181A36, #026E96, #133C91, #531F7A);
     text-shadow: 2px 1px 8px #FF0000;
+    
 }
