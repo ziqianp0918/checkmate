@@ -14,9 +14,9 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin: 1px 150px 1px 150px;
     padding: 50px 20px 50px 20px;
-    font-size:20px;
-    clear:both;
-    text-shadow:1px 1px 5px white;
+    font-size: 20px;
+    clear: both;
+    text-shadow: 1px 1px 5px white;
 }
 
 #sequel {
@@ -34,44 +34,42 @@ p {
 }
 
 .review {
-    float:left;
+    float: left;
 }
 
-a{
-    font-size:50px;
-   
+a {
+    font-size: 50px;
 }
+
 #title {
-   background-image: radial-gradient(#03051F, #16194C, #181A36, #026E96, #133C91, #531F7A);
-    text-shadow: 2px 1px 8px #FF0000;
-    width:500px;
-    height:70px;
+    background-image: radial-gradient(#03051F, #16194C, #181A36, #026E96, #133C91, #531F7A);
+    /* change the title background to circular colors*/
+    width: 500px;
+    height: 70px;
     margin: auto;
-     transition: width 2s, height 2s, transform 2s ,2;
-
-     animation-name:fadeOutLeft;
-     animation-duration: 4s;
-
+    /*needed this so that the title would be in the midddle of the site*/
+    transition: width 2s, height 2s, transform 2s, 2;
+    animation-name: fadeOutLeft;
+    animation-duration: 4s;
 }
 
 @keyframes fadeOutLeft {
-  from {
-    opacity: 1;
-  }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: rotate(720deg);
+    }
+}
 
-  to {
-    opacity: 0;
-    transform: rotate(720deg);
-    
-  }
-}
-.alink{
+.alink {
     width: 910px;
-    height:100px;
+    height: 100px;
     transition: width 2s, height 2s, transform 2s;
-  
 }
-.alink:hover{
-   width:1000px;
-   height:500px;
+
+.alink:hover {
+    width: 1000px;/*increase the size of the div*/
+    height: 500px;/*since the backgound dont change so it looks like zooming in*
 }
