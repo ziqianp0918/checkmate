@@ -65,3 +65,13 @@ a{
     
   }
 }
+div {
+    width: 100px;
+    height:350px;
+    transition: width 3s, height 3s;
+  
+}
+div: hover{
+   width:500px;
+   height:500px;
+}
