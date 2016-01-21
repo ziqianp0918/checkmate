@@ -44,5 +44,24 @@ a{
 #title {
    background-image: radial-gradient(#03051F, #16194C, #181A36, #026E96, #133C91, #531F7A);
     text-shadow: 2px 1px 8px #FF0000;
+    width:500px;
+    height:70px;
+    margin: auto;
+     transition: width 2s, height 2s, transform 2s ,2;
+
+     animation-name:fadeOutLeft;
+     animation-duration: 4s;
+
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: rotate(720deg);
     
+  }
 }
