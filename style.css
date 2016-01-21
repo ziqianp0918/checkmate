@@ -65,13 +65,13 @@ a{
     
   }
 }
-div {
-    width: 100px;
-    height:350px;
-    transition: width 3s, height 3s;
+.alink{
+    width: 910px;
+    height:100px;
+    transition: width 2s, height 2s, transform 2s;
   
 }
-div: hover{
-   width:500px;
+.alink:hover{
+   width:1000px;
    height:500px;
 }
